@@ -1,0 +1,13 @@
+---
+- name: Add Perforce GPG key
+  rpm_key:
+    key: "{{ p4cli_rpm_key }}"
+    state: present
+
+- name: Add Perforce yum repository
+  yum_repository:
+    name: perforce
+    description: Perforce Yum Repository
+    baseurl: "{{ p4cli_yum_repo_url }}"
+    enabled: 1
+    gpgcheck: 1

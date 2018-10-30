@@ -1,0 +1,9 @@
+---
+# https://www.perforce.com/perforce/doc.current/manuals/p4sag/Content/P4SAG/install.linux.packages.install.html
+p4cli_package: helix-cli
+p4cli_package_state: present
+
+# Used only for Redhat/CentOS
+# https://www.perforce.com/perforce-packages
+p4cli_rpm_key: https://package.perforce.com/perforce.pubkey
+p4cli_yum_repo_url: "http://package.perforce.com/yum/rhel/{{ ansible_distribution_major_version }}/x86_64"

@@ -1,0 +1,8 @@
+---
+- include_tasks: setup-RedHat.yml
+  when: ansible_os_family == 'RedHat'
+
+- name: Install Perforce CLI client (P4)
+  package:
+    name: "{{ p4cli_package }}"
+    state: "{{ p4cli_package_state }}"
