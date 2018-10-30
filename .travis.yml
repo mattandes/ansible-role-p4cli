@@ -7,7 +7,6 @@ env:
     - ROLE_NAME: p4cli
   matrix:
     - MOLECULE_DISTRO: centos7
-    - MOLECULE_DISTRO: fedora27
 
 install:
   # Install test dependencies.
