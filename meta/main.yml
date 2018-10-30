@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: Matt Andes
-  description: Ansible role to install the Perforce (P4) CLI client 
+  description: Ansible role to install the Perforce (P4) CLI client
   license: license (MIT)
   min_ansible_version: 2.4
   platforms:

@@ -4,7 +4,7 @@
   become: true
 
   roles:
-    - role: mattandes.p4cli 
+    - role: mattandes.p4cli
 
   post_tasks:
     - name: Get status of P4 binary file
