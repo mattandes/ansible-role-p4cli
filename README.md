@@ -1,6 +1,8 @@
 Ansible Role: P4 CLI
 =========
 
+[![Build Status](https://travis-ci.org/mattandes/ansible-role-p4cli.svg?branch=master)](https://travis-ci.org/mattandes/ansible-role-p4cli)
+
 This role will install the Perforce (P4/Helix) CLI client on a Linux system from the Perforce repositories.
 
 Requirements
