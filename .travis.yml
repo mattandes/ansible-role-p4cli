@@ -7,6 +7,7 @@ env:
     - ROLE_NAME: p4cli
   matrix:
     - MOLECULE_DISTRO: centos7
+    - MOLECULE_DISTRO: centos6
 
 install:
   # Install test dependencies.
